@@ -18,9 +18,14 @@ This means for every assigned worker may contribute skill(s) which are unique th
 followed in "linear_prog_with_unique_contributed_skillsets.py" 
 
 
+Two toy datasets (task_data and volunteer_data) ahve also been added to quickly get started with the execution and test the results. One may also use their own datasets. But for that the task.py and vol.py files are needed to be modified (according to the attributes/feature detailing).
+
 #NOTE: The code to find "union" of skills following the contraint(3) is the first ever trial. MIP has no direct functionality to find "union" of sets. 
 Also, to the best of our knowledge, this is the first ever available code (in MIP) which model "Skill-oriented task assignment problem with budget requirements". 
 
 
 Readers/coders/resaerchers are welcomed to reuse this code.This work is a part of a recently submitted paper to IEEE CLOUD 2023 conference. Please cite the following paper for this. 
-Riya et al. "Serverless-assisted Task Assignment in Skill-based Volunteer Crowdsourcing", IEEE CLOUD conference (2023) (submitted)
+Riya et al. "Serverless-assisted Task Assignment in Skill-based Volunteer Crowdsourcing", IEEE CLOUD conference (2023) (submitted).
+
+For any help, feel free to drop a message or contact me through my mail:
+study.riya1792@gmail.com
