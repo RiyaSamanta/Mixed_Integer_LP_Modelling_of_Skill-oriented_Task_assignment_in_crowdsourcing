@@ -37,7 +37,7 @@ def matching_skills(task, volunteer):
 if __name__ == '__main__':
     # Get all tasks and their unique skills
     tasks, unique_skills_tasks = get_all_tasks_and_skills(
-        "code_to_generate_data/tasks_toy.csv", 5)
+        "code_to_generate_data/task_data.csv", 5)
     
     #Keep a track of all skills per tasks
     taskSkill={}
@@ -47,7 +47,7 @@ if __name__ == '__main__':
     
     # Get all volunteers and their unique skills
     volunteers, unique_skills_volunteers = get_all_volunteers(
-        "code_to_generate_data/volunteer_toy.csv", 10)
+        "code_to_generate_data/volunteer_data.csv", 10)
 
     # Calculate the skills contributed by each volunteer for each task
     skillMatch = {}
